@@ -1,5 +1,13 @@
 # 📚 Learning Resource – Academic Notes & Practicals
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square)
+![MML](https://img.shields.io/badge/Subject-MML-green?style=flat-square)
+![BDA](https://img.shields.io/badge/Subject-BDA-blue?style=flat-square)
+![AAM](https://img.shields.io/badge/Subject-AAM-purple?style=flat-square)
+
+---
+
 ## 📂 Repository Overview
 
 **Learning Resource** is a centralized repository containing **study materials, notes, and practical programs** for students in **Artificial Intelligence, Machine Learning, Data Science, and Big Data**.  
