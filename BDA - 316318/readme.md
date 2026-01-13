@@ -1,6 +1,6 @@
 # 📊 Big Data Analytics (BDA) – Notes & Practical Solutions Repository
 
-📘 **Course Title:** Big Data Analytics
+📘 **Course Title:** Big Data Analytics <br>
 🆔 **Course Code:** *316318*
 
 ---
@@ -39,68 +39,67 @@ bda/
 
 ### 📌 **Unit I – Introduction to Big Data Analytics**
 
-✔ Classification of Data (Structured, Semi-structured, Unstructured)
-✔ Big Data Definitions & Need
-✔ Big Data Characteristics (Volume, Velocity, Variety, Veracity)
-✔ Big Data Types & Processing Architecture
-✔ Phases of Big Data Analytics
-✔ Real-world Applications (Marketing, Healthcare, Medicine, Advertising)
-
-🔗 **Mapped CO:** CO1
+✔ Classification of Data (Structured, Semi-structured, Unstructured) <br>
+✔ Big Data Definitions & Need <br>
+✔ Big Data Characteristics (Volume, Velocity, Variety, Veracity) <br>
+✔ Big Data Types & Processing Architecture <br>
+✔ Phases of Big Data Analytics <br>
+✔ Real-world Applications (Marketing, Healthcare, Medicine, Advertising) <br>
+🔗 **Mapped CO:** CO1 <br>
 📌 **Mapped TLOs:** TLO 1.1 – TLO 1.6
 
 ---
 
 ### 📌 **Unit II – Hadoop & MapReduce**
 
-✔ Introduction to Hadoop & Ecosystem
-✔ HDFS Architecture & Commands
-✔ MapReduce Framework & Programming Model
-✔ Map, Reduce, Combiner & Partitioner
-✔ Hadoop YARN Execution Model
+✔ Introduction to Hadoop & Ecosystem <br>
+✔ HDFS Architecture & Commands <br>
+✔ MapReduce Framework & Programming Model <br>
+✔ Map, Reduce, Combiner & Partitioner <br>
+✔ Hadoop YARN Execution Model <br>
 
-🔗 **Mapped CO:** CO2
+🔗 **Mapped CO:** CO2 <br>
 📌 **Mapped TLOs:** TLO 2.1 – TLO 2.6
 
 ---
 
 ### 📌 **Unit III – NoSQL Databases & Big Data Management**
 
-✔ Need of NoSQL in Big Data
-✔ CAP Theorem
-✔ Schema-less Data Models
-✔ NoSQL Architecture Patterns (Key-Value, Document, Column, Graph)
-✔ MongoDB Architecture & Features
+✔ Need of NoSQL in Big Data <br>
+✔ CAP Theorem <br>
+✔ Schema-less Data Models <br>
+✔ NoSQL Architecture Patterns (Key-Value, Document, Column, Graph) <br>
+✔ MongoDB Architecture & Features <br>
 
-🔗 **Mapped CO:** CO3
+🔗 **Mapped CO:** CO3 <br>
 📌 **Mapped TLOs:** TLO 3.1 – TLO 3.6
 
 ---
 
 ### 📌 **Unit IV – Hive & Pig**
 
-✔ Hive Characteristics & Architecture
-✔ Hive Data Types & File Formats
-✔ HiveQL (DDL, DML, Queries, Built-in Functions)
-✔ Pig Architecture
-✔ Pig Latin Data Model
-✔ Comparison: Pig vs SQL vs MapReduce vs Hive
+✔ Hive Characteristics & Architecture <br>
+✔ Hive Data Types & File Formats <br>
+✔ HiveQL (DDL, DML, Queries, Built-in Functions) <br>
+✔ Pig Architecture <br>
+✔ Pig Latin Data Model <br>
+✔ Comparison: Pig vs SQL vs MapReduce vs Hive <br>
 
-🔗 **Mapped CO:** CO4
+🔗 **Mapped CO:** CO4 <br>
 📌 **Mapped TLOs:** TLO 4.1 – TLO 4.8
 
 ---
 
 ### 📌 **Unit V – Apache Spark & Real-Time Analytics**
 
-✔ Spark Architecture & Components
-✔ RDDs & Spark SQL
-✔ ETL using Spark
-✔ Spark MLlib for Machine Learning
-✔ Spark Streaming & Structured Streaming
-✔ Spark Streaming Architecture & Characteristics
+✔ Spark Architecture & Components <br>
+✔ RDDs & Spark SQL <br>
+✔ ETL using Spark <br>
+✔ Spark MLlib for Machine Learning <br>
+✔ Spark Streaming & Structured Streaming <br>
+✔ Spark Streaming Architecture & Characteristics <br>
 
-🔗 **Mapped CO:** CO5
+🔗 **Mapped CO:** CO5 <br>
 📌 **Mapped TLOs:** TLO 5.1 – TLO 5.9
 
 ---
@@ -109,61 +108,61 @@ bda/
 
 ### 🔬 **Big Data & Hadoop Practicals**
 
-✔ Big Data case study
-✔ Hadoop installation (Single-node & Multi-node cluster)
-✔ HDFS file operations & replication
-✔ Backup & restore operations in HDFS
-✔ Resource monitoring in Hadoop cluster
-✔ MapReduce programs (Word Count, CSV Processing)
+✔ Big Data case study <br>
+✔ Hadoop installation (Single-node & Multi-node cluster) <br>
+✔ HDFS file operations & replication <br>
+✔ Backup & restore operations in HDFS <br>
+✔ Resource monitoring in Hadoop cluster <br>
+✔ MapReduce programs (Word Count, CSV Processing) <br>
 
-🔗 **Mapped CO:** CO1, CO2
+🔗 **Mapped CO:** CO1, CO2 <br>
 📌 **Mapped LLOs:** LLO 1.1 – LLO 10.1
 
 ---
 
 ### 🔬 **NoSQL & MongoDB Practicals**
 
-✔ MongoDB installation & collection creation
-✔ Schema design for unstructured data
-✔ Aggregation queries
-✔ CAP theorem behavior using replica sets
+✔ MongoDB installation & collection creation <br>
+✔ Schema design for unstructured data <br>
+✔ Aggregation queries <br>
+✔ CAP theorem behavior using replica sets <br>
 
-🔗 **Mapped CO:** CO3
+🔗 **Mapped CO:** CO3 <br>
 📌 **Mapped LLOs:** LLO 11.1 – LLO 14.1
 
 ---
 
 ### 🔬 **Hive & Pig Practicals**
 
-✔ Hive installation & configuration
-✔ HiveQL queries (joins, aggregation)
-✔ Pig scripts for transformation
-✔ User Defined Functions (UDFs) in Pig
+✔ Hive installation & configuration <br>
+✔ HiveQL queries (joins, aggregation) <br>
+✔ Pig scripts for transformation <br>
+✔ User Defined Functions (UDFs) in Pig <br>
 
-🔗 **Mapped CO:** CO4
+🔗 **Mapped CO:** CO4 <br>
 📌 **Mapped LLOs:** LLO 15.1 – LLO 18.1
 
 ---
 
 ### 🔬 **Spark & Real-Time Analytics Practicals**
 
-✔ Spark installation & verification
-✔ RDD transformations (map, filter, reduce)
-✔ ETL using Spark
-✔ Spark SQL queries
-✔ Spark Streaming (real-time word count, HDFS storage)
-✔ MLlib algorithms (Regression, K-Means, Decision Tree)
+✔ Spark installation & verification <br>
+✔ RDD transformations (map, filter, reduce) <br>
+✔ ETL using Spark <br>
+✔ Spark SQL queries <br>
+✔ Spark Streaming (real-time word count, HDFS storage) <br>
+✔ MLlib algorithms (Regression, K-Means, Decision Tree) <br>
 ✔ Visualization of clustering results
 
-🔗 **Mapped CO:** CO5
+🔗 **Mapped CO:** CO5 <br>
 📌 **Mapped LLOs:** LLO 19.1 – LLO 30.1
 
 ---
 
 ## 🛠 Tools & Technologies Used
 
-* Hadoop (HDFS, MapReduce, YARN)
-* MongoDB
+* Hadoop (HDFS, MapReduce, YARN) 
+* MongoDB 
 * Apache Hive
 * Apache Pig
 * Apache Spark
@@ -175,11 +174,11 @@ bda/
 
 ## 🚀 Who Can Use This Repository?
 
-✅ Big Data Analytics Students
-✅ Engineering Undergraduates
-✅ MSBTE / University Exam Preparation
-✅ Lab Exam & Viva Preparation
-✅ Beginners in Big Data Technologies
+✅ Big Data Analytics Students <br>
+✅ Engineering Undergraduates <br>
+✅ MSBTE / University Exam Preparation <br>
+✅ Lab Exam & Viva Preparation <br>
+✅ Beginners in Big Data Technologies <br>
 
 ---
 
