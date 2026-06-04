@@ -1,0 +1,172 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 🚀 **Practical No. 05: Implement A star Search Algorithm (Informed Type) in Python**\n",
+        "\n",
+        "> 🎯 **Laboratory Learning Outcome (LLO) 5.1:**  Implement and understand the A* Search algorithm for finding the optimal path in a graph.\n",
+        "\n",
+        "> 📘 **Course Outcome (CO):** CO1\n",
+        "\n",
+        "> 💻 **Title:**  Write Program to Implement A* Search Algorithm (Informed Type) in Python\n",
+        "\n",
+        "> 🌐 **Domain:** Artificial Intelligence and Machine Learning  \n",
+        "\n",
+        "> 📚 **Subject:** AI & ML ALGORITHM  \n",
+        "\n",
+        "> 🐍 **Language:** Python\n",
+        "\n",
+        "> 📖 **Description:**\n",
+        "**A* (A-Star) Search Algorithm** is an **informed search algorithm** widely used for pathfinding and graph traversal problems. <br><br>\n",
+        "🔍 A* combines the advantages of **Uniform Cost Search** and **Greedy Best-First Search** to efficiently find the shortest path between a start node and a goal node. <br><br> 📊 The algorithm uses an **evaluation function**: <br>\n",
+        "**f(n) = g(n) + h(n)**\n",
+        "<br>Where:\n",
+        "> - **g(n)** = Actual cost from the start node to the current node.\n",
+        "> - **h(n)** = Heuristic estimate of the cost from the current node to the goal node.\n",
+        "> - **f(n)** = Estimated total cost of the solution path through node *n*.\n",
+        "\n",
+        "---"
+      ],
+      "metadata": {
+        "id": "0z3xmCQ7lvXQ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Graph_nodes = {\n",
+        "    'A': [('B', 6), ('F', 3)],\n",
+        "    'B': [('C', 3), ('D', 2)],\n",
+        "    'C': [('D', 1), ('E', 5)],\n",
+        "    'D': [('C', 1), ('E', 8)],\n",
+        "    'E': [('I', 5), ('J', 5)],\n",
+        "    'F': [('G', 1),('H', 7)] ,\n",
+        "    'G': [('I', 3)],\n",
+        "    'H': [('I', 2)],\n",
+        "    'I': [('E', 5), ('J', 3)],\n",
+        "\n",
+        "}\n",
+        "\n",
+        "def get_neighbors(v):\n",
+        "    if v in Graph_nodes:\n",
+        "        return Graph_nodes[v]\n",
+        "    else:\n",
+        "        return None\n",
+        "\n",
+        "def h(n):\n",
+        "        H_dist = {\n",
+        "            'A': 10,\n",
+        "            'B': 8,\n",
+        "            'C': 5,\n",
+        "            'D': 7,\n",
+        "            'E': 3,\n",
+        "            'F': 6,\n",
+        "            'G': 5,\n",
+        "            'H': 3,\n",
+        "            'I': 1,\n",
+        "            'J': 0\n",
+        "        }\n",
+        "        return H_dist[n]\n",
+        "\n",
+        "def aStarAlgo(start_node, stop_node):\n",
+        "\n",
+        "        open_set = set(start_node)\n",
+        "        closed_set = set()\n",
+        "        g = {}\n",
+        "        parents = {}\n",
+        "        g[start_node] = 0\n",
+        "        parents[start_node] = start_node\n",
+        "\n",
+        "        while len(open_set) > 0:\n",
+        "            n = None\n",
+        "\n",
+        "            for v in open_set:\n",
+        "                if n == None or g[v] + h(v) < g[n] + h(n):\n",
+        "                    n = v\n",
+        "\n",
+        "            if n == stop_node or Graph_nodes[n] == None:\n",
+        "                pass\n",
+        "            else:\n",
+        "                for (m, weight) in get_neighbors(n):\n",
+        "                    if m not in open_set and m not in closed_set:\n",
+        "                        open_set.add(m)\n",
+        "                        parents[m] = n\n",
+        "                        g[m] = g[n] + weight\n",
+        "\n",
+        "                    else:\n",
+        "                        if g[m] > g[n] + weight:\n",
+        "                            g[m] = g[n] + weight\n",
+        "                            parents[m] = n\n",
+        "                            if m in closed_set:\n",
+        "                                closed_set.remove(m)\n",
+        "                                open_set.add(m)\n",
+        "\n",
+        "            if n == None:\n",
+        "                print('Path does not exist!')\n",
+        "                return None\n",
+        "            if n == stop_node:\n",
+        "                path = []\n",
+        "\n",
+        "                while parents[n] != n:\n",
+        "                    path.append(n)\n",
+        "                    n = parents[n]\n",
+        "\n",
+        "                path.append(start_node)\n",
+        "\n",
+        "                path.reverse()\n",
+        "\n",
+        "                print('Path found: {}'.format(path))\n",
+        "                return path\n",
+        "            open_set.remove(n)\n",
+        "            closed_set.add(n)\n",
+        "\n",
+        "        print('Path does not exist!')\n",
+        "        return None\n",
+        "\n",
+        "aStarAlgo('A', 'J')"
+      ],
+      "metadata": {
+        "id": "E__fbKqoojp3",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "51d10773-14f8-4df4-ba88-d061e03dfe90"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Path found: ['A', 'F', 'G', 'I', 'J']\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['A', 'F', 'G', 'I', 'J']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ]
+    }
+  ]
+}
