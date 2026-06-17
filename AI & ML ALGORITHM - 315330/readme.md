@@ -55,50 +55,6 @@ AI-ML/
 
 ---
 
-
-# 📖 Theory Syllabus Coverage
-
-## 🚀 Unit I – Basics of AI & Problem Solving Techniques
-
-This unit introduces the fundamental concepts of Artificial Intelligence, including its scope, applications, and various types. It explores intelligent agents, rational decision-making, and the Turing Test. The unit also covers classical and heuristic search techniques such as BFS, DFS, A*, Greedy Search, and local search algorithms used for problem-solving in AI.
-
-🔗 **Mapped CO:** CO1
-
----
-
-## 🧩 Unit II – Knowledge & Reasoning
-
-This unit focuses on how knowledge is represented and processed in Artificial Intelligence systems. It covers knowledge-based agents, propositional and first-order logic, inference mechanisms, and reasoning techniques. Students also learn probabilistic reasoning concepts and the application of Bayes' Theorem for decision-making under uncertainty.
-
-🔗 **Mapped CO:** CO2
-
----
-
-## 📊 Unit III – Introduction to Machine Learning
-
-This unit provides an overview of Machine Learning, its evolution, and its relationship with Artificial Intelligence. It explains the complete Machine Learning life cycle, different forms of data, dataset preparation, training and testing processes, and essential data cleaning techniques required for building effective ML models.
-
-🔗 **Mapped CO:** CO3
-
----
-
-## 🤖 Unit IV – Types of Learning
-
-This unit introduces different Machine Learning paradigms, including supervised, unsupervised, and semi-supervised learning. It covers widely used algorithms such as Linear Regression, Logistic Regression, Decision Trees, KNN, Random Forest, and K-Means Clustering. The unit also discusses model validation techniques like cross-validation.
-
-🔗 **Mapped CO:** CO4
-
----
-
-## 📈 Unit V – Regression & Classification
-
-This unit focuses on regression and classification techniques used in predictive analytics. It covers simple and multiple linear regression, logistic regression, overfitting and underfitting concepts, and performance evaluation metrics such as MSE, RMSE, MAE, Precision, Recall, F1-Score, ROC-AUC, and Confusion Matrix.
-
-🔗 **Mapped CO:** CO5
-
-
----
-
 # 🛠️ Technologies & Tools Used
 
 | Category                   | Tools                                |
