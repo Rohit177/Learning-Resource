@@ -12,7 +12,8 @@
 Winter 2025: https://msbte.engg-info.website/new/315330/questionpaper/315330-winter-2025-question-paper.pdf?v=1783793759 </br>
 Summer 2026: https://msbte.engg-info.website/new/315330/questionpaper/315330-summer-2026-question-paper.pdf?v=1784886378 </br>
 I Scheme Summer 2025: http://msbte.engg-info.website/sites/default/files/s2ischeme/22593-2025-Summer-question-paper.pdf </br>
-I Scheme Winter 2023: https://www.scribd.com/document/772635469/22593-2023-Winter-question-paper-Msbte-study-resources
+I Scheme Winter 2023: https://www.scribd.com/document/772635469/22593-2023-Winter-question-paper-Msbte-study-resources </br>
+I Scheme unknown year: https://www.studocu.com/in/document/maharashtra-state-board-of-technical-education/fundamentals-of-ai-and-ml-algorithms/22593-ai-ml-exam-3-hours-70-marks-instructions-questions/145707065?sid=6e1d1cab-2e9d-48e6-bd87-703a0c3081cc1791169722
 
 ---
 
