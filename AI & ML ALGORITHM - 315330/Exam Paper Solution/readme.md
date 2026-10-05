@@ -10,7 +10,7 @@
 ## 🔗 Previous year question paper links
 
 K Scheme Summer 2026: https://econtent.msbte.edu.in/question_papers/index_view.php </br>
-K Scheme Winter 2025: https://msbte.engg-info.website/new/315330/questionpaper/315330-winter-2025-question-paper.pdf?v=1783793759 </br>
+K Scheme Winter 2025: https://econtent.msbte.edu.in/question_papers/index_view.php </br>
 </br>
 I Scheme Summer 2026: https://econtent.msbte.edu.in/question_papers/index_view.php </br>
 I Scheme Winter 2025: https://econtent.msbte.edu.in/question_papers/index_view.php </br>
