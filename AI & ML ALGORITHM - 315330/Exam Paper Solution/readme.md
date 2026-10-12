@@ -12,7 +12,7 @@
 K Scheme Summer 2026: https://drive.google.com/file/d/1fjqnfMnCpI-auiyS4HkGkFqb2E6xoJyD/view?usp=drive_link </br>
 K Scheme Winter 2025: https://drive.google.com/file/d/1szllv7K7iLb5cQgZHWyVEwIn0fVyfvMU/view?usp=drive_link </br>
 </br>
-I Scheme Summer 2026: https://econtent.msbte.edu.in/question_papers/index_view.php </br>
+I Scheme Summer 2026: https://drive.google.com/file/d/1uxIrClrRdhZFiddkLKldt7TWxK1TPfrH/view?usp=drive_link </br>
 I Scheme Winter 2025: https://econtent.msbte.edu.in/question_papers/index_view.php </br>
 I Scheme Summer 2025: https://econtent.msbte.edu.in/question_papers/index_view.php </br>
 I Scheme Summer 2024: https://econtent.msbte.edu.in/question_papers/index_view.php </br>
